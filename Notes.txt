@@ -1,0 +1,124 @@
+05/05/2024
+
+LARAVEL Installation
+
+05/05/2024
+
+At the CLI:
+----------
+composer global require "laravel/installer"
+
+CD to your working directory
+-----------------------------
+cd to your working laravel directory
+
+Check Laravel Version
+---------------------
+php artisan --version
+
+Create a new project
+--------------------
+composer create-project --prefer-dist laravel/laravel lakubovel
+ 
+cp .env.example .env
+
+php artisan key:generate
+
+
+EXTENSIONS
+
+1. Rest Client - Huachao Mao
+2. Tabstop Whitespace Converter - Johnny Wong
+3. Prettier - Code Fomratter - Prettier
+4. MySQL - MySQL Management Tool - Jun Han
+5. Material Icon Theme - Philipp Kief
+6. dotEnv - MikeStead
+7. Markdown Preview Github Styling - Matt Bierner
+8. Extension Pack for Java - Microsoft
+9. PHP Intelephense - Ben Mewburn
+
+
+GIT - G1thUUb@!!M3
+---
+
+Create .gitignore on the app root folder
+# Ignore node_modules
+node_modules/
+
+git init           # Initialize a Git repository
+git add .            # Add all files in your project to the staging area
+git config --global user.email "jammi_dee@yahoo.com"
+git config --global user.name "Jammi Dee"
+git commit -m "Initial commit Lalulla Framework using Laravel"  # Commit your changes
+git branch -M main  # Rename the default branch to 'main'
+git remote add origin https://github.com/jammidee/laframevel.git  # Replace with your GitHub repository URL
+git pull origin main  #if there is error in push
+git pull origin main --allow-unrelated-histories #if there are errors
+git push -u origin main  # Push your code to GitHub
+git rm -r --cached logs
+
+git status
+git log
+git log --all --graph
+
+* Creating a new branch
+git branch feature01
+git checkout feature01
+git add .
+git commit -m "Feature 01 initial commit"
+git push -u origin feature01
+
+* Create a pull request
+1. Login to github then click the 'Pull Request' menu.
+2. Click the Create A Pull Request. Then Confirm Merge.
+
+SETTING UP TEST email
+---------------------
+https://mailtrap.io/
+jammi_dee@yahoo.com
+6T_iFzbYquCJy.H
+
+SETUP DATABASE
+--------------
+
+CREATE DATABASE laravel CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE USER dbwaveuser@localhost IDENTIFIED BY 'dbwavepass@!!';
+GRANT ALL PRIVILEGES ON laravel.* TO 'dbwaveuser'@'localhost';
+FLUSH PRIVILEGES;
+use laravel;
+
+DEVELOPMENT GUIDE
+-----------------
+https://marketsplash.com/how-to-install-laravel/
+
+https://marketsplash.com/laravel-belongsto-vs-hasone/
+
+
+Create Migration:
+php artisan make:migration create_todos_table --create=todos
+php artisan migrate
+
+php artisan make:model Todo
+php artisan make:controller TodosController
+
+
+
+Set up User Authentication with Laravel Breeze
+----------------------------------------------
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install
+npm run dev
+
+
+MORE TUTORIAL
+-------------
+https://www.tutsmake.com/laravel-10-crud-example-tutorial/
+
+1. Create Model and Migration
+   php artisan make:model Company -m
+   php artisan migrate
+
+2. Create a CRUD Operation controller
+   php artisan make:controller CompanyController
+

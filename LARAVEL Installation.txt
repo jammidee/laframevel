@@ -1,0 +1,19 @@
+LARAVEL Installation
+
+05/05/2024
+
+At the CLI:
+----------
+composer global require "laravel/installer"
+
+CD to your working directory
+-----------------------------
+cd to your working laravel directory
+
+Create a new project
+--------------------
+composer create-project --prefer-dist laravel/laravel lakubovel
+
+cp .env.example .env
+
+php artisan key:generate
