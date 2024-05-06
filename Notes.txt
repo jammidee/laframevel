@@ -24,6 +24,8 @@ cp .env.example .env
 
 php artisan key:generate
 
+php artisan serve --port=8080
+
 
 EXTENSIONS
 
@@ -105,10 +107,17 @@ php artisan make:controller TodosController
 
 Set up User Authentication with Laravel Breeze
 ----------------------------------------------
+https://masteringbackend.com/posts/laravel-framework-the-ultimate-guide#laravel-complete-overview
 composer require laravel/breeze --dev
 php artisan breeze:install
 npm install
 npm run dev
+Select: blade, the rest is default 
+
+
+
+
+
 
 
 MORE TUTORIAL
