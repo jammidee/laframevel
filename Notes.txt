@@ -91,6 +91,21 @@ use laravel;
 
 DEVELOPMENT GUIDE
 -----------------
+
+Set up User Authentication with Laravel Breeze
+----------------------------------------------
+https://masteringbackend.com/posts/laravel-framework-the-ultimate-guide#laravel-complete-overview
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install
+npm run dev
+Select: blade, the rest is default
+
+Setup the API endpoint
+----------------------
+php artisan install:api
+
+
 https://marketsplash.com/how-to-install-laravel/
 
 https://marketsplash.com/laravel-belongsto-vs-hasone/
@@ -103,16 +118,6 @@ php artisan migrate
 php artisan make:model Todo
 php artisan make:controller TodosController
 
-
-
-Set up User Authentication with Laravel Breeze
-----------------------------------------------
-https://masteringbackend.com/posts/laravel-framework-the-ultimate-guide#laravel-complete-overview
-composer require laravel/breeze --dev
-php artisan breeze:install
-npm install
-npm run dev
-Select: blade, the rest is default 
 
 
 

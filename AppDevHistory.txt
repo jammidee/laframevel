@@ -15,6 +15,9 @@ Tested / QA by:				Jammi Dee
 TODO
 - sync registry from farmers
 
+05/07/2024      - Added api Sunctum
+                - 
+
 05/06/2024		- Created Lakubovel
 			    - configured the .env 
                 - Added NOtes
