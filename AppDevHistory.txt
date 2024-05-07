@@ -16,6 +16,7 @@ TODO
 - sync registry from farmers
 
 05/07/2024      - Added api Sunctum
+                - Explore Blade directives
                 - 
 
 05/06/2024		- Created Lakubovel
